@@ -54,8 +54,8 @@ h1 {
     display: inline;
 }
 
-#myherophoto {
-    width: 184px;
+#hero-image {
+    width: 200px;
     height: auto;
 }
 
@@ -83,4 +83,56 @@ h1 {
     color:white;
     background: transparent linear-gradient(95deg, #FFA7FF 0%, #E949F5 100%) 0% 0% no-repeat padding-box;
     border: 1px solid white;
+}
+
+
+/* featured */
+
+.featured {
+    background: #EFEFEF 0% 0% no-repeat padding-box;
+    width: 100%;
+    height: 1000px;
+    margin-top: 150px;
+}
+
+#featured-section-title {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#featured-section-title h2 {
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+
+.project {
+    margin: 10px 0;
+
+}
+
+.fit-image {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+
+.featured-work {
+    width: 47%;
+    height: 440px;
+    /* margin: 1%; */
+    background-color: pink;
+    /* display: inline-block;
+    text-align: center;
+    border-radius: 12px; */
+}
+
+#zipline-photo {
+    width: 536px;
+    height: 440px;
+    border-radius: 12px;
 }
