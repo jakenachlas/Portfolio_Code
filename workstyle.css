@@ -13,6 +13,7 @@ body {
     font-weight: bold;
 }
 
+
 #logo-main {
     width: 187px;
     height: auto;
@@ -50,7 +51,6 @@ body {
 
 .hero {
     margin: auto;
-
 }
 
 
@@ -101,6 +101,7 @@ h1 {
     background: #EFEFEF 0% 0% no-repeat padding-box;
     width: 100%;
     margin-top: 150px;
+    box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.3);
 }
 
 #featured-section-title {
@@ -136,4 +137,22 @@ h1 {
     width: 536px;
     height: 440px;
     border-radius: 12px;
+}
+
+
+
+
+
+
+
+/* footer */
+footer {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    text-align: center;
+}
+
+#heart-icon {
+    color: #FF4B4B;
 }
