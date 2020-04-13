@@ -326,7 +326,7 @@ input:focus::-webkit-input-placeholder {
 
 /* footer */
 hr {
-    max-width: 820px;
+    max-width: 60%;
 }
 
 footer {
@@ -369,7 +369,7 @@ footer {
 
 
 /* tablet */
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
     .featured {
         background: #EFEFEF 0% 0% no-repeat padding-box;
         width: 100%;
@@ -433,10 +433,17 @@ footer {
         font-size: 20px;
         font-weight: bold;
     }
+
+    .form {
+        max-width: 80%;
+    }
+
+    /* TABLET footer */
+
 }
 
 /* phone */
-/* @media (max-width: 400px) {
+@media (max-width: 400px) {
     body {
         overflow-x: hidden;
     }
@@ -505,4 +512,24 @@ footer {
         font-size: 20px;
         font-weight: bold;
     }
-} */ 
+
+
+    .form {
+        max-width: 80%;
+    }
+    /* PHONE footer */
+    footer {
+        margin-top: 20px;
+        padding-bottom: 20px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .footer-text {
+        max-width: 80%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+
+}
