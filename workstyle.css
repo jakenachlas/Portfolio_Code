@@ -208,11 +208,6 @@ h1 {
 }
 
 
-/* medium stories */
-.medium-stories-section {
-    display: flex;
-}
-
 
 /* contact form section */
 
@@ -226,7 +221,7 @@ h1 {
 #contact-header {
     text-align: center;
     padding-top: 30px;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
 }
 
 
@@ -237,6 +232,27 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 60px;
+}
+
+.first-row-contact-form {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.second-row-contact-form {
+    display: flex;
+}
+
+@media (max-width: 750px){
+    .first-row-contact-form {
+        display: block;
+        justify-content: space-between;
+        margin: 0;
+    }
+    .second-row-contact-form {
+        display: block;
+    }
 }
 
 input {
