@@ -7,25 +7,25 @@ body {
     padding: 0;
 }
 
+.navbar-custom {
+    background-color: rgba(255,255,255,0.7);
+}
 
-
-/* new nav */
-li, .new-nav-atags, .cta {
-    font-family: 'Lato', sans-serif;
-    font-size: 16px;
+.navbar-custom .navbar-nav .nav-link {
     color: #1a1a1a;
-    text-decoration: none;
+    padding: 0 25px;
 }
 
-header {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding-top: 30px;
-    padding-bottom: 20px;
-    padding-left: 10%;
-    padding-right: 10%;
+/* #hover state */
+.navbar-custom .nav-item:hover .nav-link {
+    color: #dc2430;
 }
+
+/* active state */
+.navbar-custom .nav-item.active .nav-link {
+    color: #7b4397;
+}
+
 
 .nav-new {
     position: fixed;
@@ -36,40 +36,9 @@ header {
     background-color: rgba(255,255,255,0.9);
 }
 
-.logo {
-    cursor: pointer;
-    width: 187px;
-    height: auto;
-    margin-right: auto;
-}
-
-.nav__links {
-    list-style: none;
-    margin-right: auto;
-}
-
-.nav__links li .active {
-    color: #7b4397;
-}
-
-.nav__links li {
-    display: inline-block;
-    padding: 0px 30px;
-}
-
-.nav__links li a {
-    transition: all 0.3s ease 0s;
-}
-.nav__links li a:hover {
-    color: #dc2430;
-    text-decoration: none;
-}
 
 
-#logo-main {
-    width: 187px;
-    height: auto;
-}
+/* hero */
 
 .hero-content {
     display: flex;
