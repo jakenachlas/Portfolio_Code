@@ -6,14 +6,15 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="workstyle.css" type="text/css">
 
-    <!-- fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <!-- icons -->
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>Jake Nachlas' Website</title>
 </head>
 <body>
 
-    <section class="nav">
+    <section class="nav-new">
       <div class="container">
           <nav class="navbar navbar-expand-lg navbar-light flex center" id="mynavbar">
               <a class="navbar-brand" href="home.html">
@@ -115,12 +116,25 @@
 
     <!-- contact -->
     <section id="contact-section">
-      <h2 id="contact-header">Let's Get in Touch!</h2>
+      <div class="container">
+        <h2 id="contact-header">Let's Get in Touch!</h2>
+
+        <div class="form">
+          <form>
+            <input class="first-elements-contact-form" type="text" placeholder="Name">
+            <input class="first-elements-contact-form" type="text" placeholder="E-Mail">
+            <input type="text" id="msg" placeholder="Message">
+          </form>
+
+          <button id="send-message" type="button">Send Message</button>
+        </div>
+      </div>
     </section>
 
 
 
     <footer class="footer">
+
       © 2020 Jake Nachlas, all rights reserved. Made from scratch with <span id="heart-icon">♥</span>.
     </footer>
 </body>
