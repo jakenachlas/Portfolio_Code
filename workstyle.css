@@ -11,9 +11,10 @@ body {
 }
 
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-    color: #78BDD7;
+    color: #7b4397;
     font-weight: bold;
 }
+
 
 .nav-new {
     position: fixed;
@@ -91,20 +92,24 @@ h1 {
 }
 
 #button-to-about {
-    color: #FD6BF2;
-    background-color: white;
-    border: 1px solid #FD6BF2;
+    color: #fff;
+    background: transparent linear-gradient(95deg, #7b4397 0%, #dc2430 100%) 0% 0% no-repeat padding-box;
+    border: none;
+    margin: 8px;
     font-size: 14px;
     font-family: 'Lato', sans-serif;
     border-radius: 5px;
     padding: 10px 32px;
+    box-shadow: 0px 0px 20px rgba(228, 55, 98, 0.5);
+    transition: box-shadow 0.3s ease-in-out;
+    position: relative;
+
 }
 
 #button-to-about:hover {
     color:white;
-    background: transparent linear-gradient(95deg, #FFA7FF 0%, #E949F5 100%) 0% 0% no-repeat padding-box;
-    border: 1px solid white;
-
+    /* background: transparent linear-gradient(95deg, #FFA7FF 0%, #E949F5 100%) 0% 0% no-repeat padding-box; */
+    box-shadow: 0px 0px 30px rgba(228, 55, 98, 0.7);
 }
 
 
@@ -130,29 +135,12 @@ h1 {
     font-weight: bold;
 } 
 
-/* .featured-projects {
-    padding-bottom: 30px;
-}
-
-.project {
-    margin: 10px 0;
-
-}
-
-.fit-image {
-    width: 100%;
-    object-fit: cover;
-    border-radius: 12px;
-    margin-bottom: 10px;
-} */
-
 
 #zipline-photo {
     width: 536px;
     height: 440px;
     border-radius: 12px;
 }
-
 
 
 .flex-container {
@@ -179,6 +167,10 @@ h1 {
     transition: box-shadow 0.3s ease-in-out;
 }
 
+.card-element.col-sm-12 {
+    padding: 0;
+}
+
 .card-element:hover {
     box-shadow: 0px 0px 40px #00000060;
 }
@@ -189,6 +181,11 @@ h1 {
     height: 190px;
     border-bottom-left-radius: 12px;
     border-top-left-radius: 12px;
+    left: 0;
+}
+
+.card-image-holder {
+    height: 100%;
 }
 
 .card-element-text-content {
@@ -253,12 +250,12 @@ input {
 }
 
 input:focus {
-    border-bottom: 2px solid cyan;
+    border-bottom: 2px solid #7b4397;
     outline: none;
 }
 
 input:focus::-webkit-input-placeholder {
-    color: cyan;
+    color: #7b4397;
 }
 
 #msg {
@@ -266,15 +263,23 @@ input:focus::-webkit-input-placeholder {
 }
 
 #send-message {
-    margin-top: 20px;
-    color: #FD6BF2;
-    background-color: white;
-    border: 1px solid #FD6BF2;
+    color: #fff;
+    background: transparent linear-gradient(95deg, #7b4397 0%, #dc2430 100%) 0% 0% no-repeat padding-box;
+    border: none;
+    margin: 8px;
     font-size: 14px;
     font-family: 'Lato', sans-serif;
     border-radius: 5px;
     padding: 10px 32px;
-    margin-bottom: 80px;
+    box-shadow: 0px 0px 20px rgba(228, 55, 98, 0.5);
+    transition: box-shadow 0.3s ease-in-out;
+    position: relative;
+}
+
+#send-message:hover {
+    color:white;
+    /* background: transparent linear-gradient(95deg, #FFA7FF 0%, #E949F5 100%) 0% 0% no-repeat padding-box; */
+    box-shadow: 0px 0px 30px rgba(228, 55, 98, 0.7);
 }
 
 ::-webkit-input-placeholder {
@@ -326,6 +331,146 @@ footer {
 }
 
 #heart-icon {
-    color: #FF4B4B;
+    color: #dc2430;
 }
 
+
+
+/* tablet */
+/* @media (max-width: 768px) {
+    .featured {
+        background: #EFEFEF 0% 0% no-repeat padding-box;
+        width: 100%;
+        margin-top: 150px;
+        padding-bottom: 30px;
+        box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.3);
+    }
+
+
+    .card-element {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        height: 50%;
+        background-color: white;
+        margin: 30px;
+        border-radius: 12px;
+        justify-content: center;
+        box-shadow: 0px 0px 40px #0000002C;
+        transition: box-shadow 0.3s ease-in-out;
+    }
+    
+    .card-element.col-sm-12 {
+        padding: 0;
+    }
+    
+    .card-element:hover {
+        box-shadow: 0px 0px 40px #00000060;
+    }
+    
+    .card-image-holder img {
+        position: relative;
+        max-width: 100%;
+        max-height: 100%;
+        border-bottom-left-radius: 12px;
+        border-top-left-radius: 12px;
+        top: 0;
+    }
+
+    .card-image-holder {
+        max-width: 100%;
+        max-height:100%;
+    }
+    
+    .card-element-text-content {
+        display: inline-block;
+        margin-left: 10%;
+        margin-top: 10%;
+        margin-right: 10%;
+        margin-bottom: 10%;
+    }
+    
+    .card-element-text-genre {
+        font-family: 'Lato', sans-serif;
+        font-size: 14px;
+        font-weight: regular;
+    }
+    
+    .card-element-text-title {
+        font-family: 'Lato', sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+
+/* phone */
+/* @media (max-width: 400px) {
+    body {
+        overflow-x: hidden;
+    }
+    
+    .featured {
+        background: #EFEFEF 0% 0% no-repeat padding-box;
+        width: 100%;
+        margin-top: 150px;
+        padding-bottom: 30px;
+        box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.3);
+    }
+
+
+    .card-element {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        height: 80%;
+        background-color: white;
+        margin: 20px;
+        border-radius: 12px;
+        justify-content: center;
+        box-shadow: 0px 0px 40px #0000002C;
+        transition: box-shadow 0.3s ease-in-out;
+    }
+    
+    .card-element.col-sm-12 {
+        padding: 0;
+    }
+    
+    
+    .card-image-holder img {
+        position: relative;
+        max-width: 100%;
+        max-height: 100%;
+        border-top-right-radius: 12px;
+        border-top-left-radius: 12px;
+        border-bottom-left-radius: 0;
+        top: 0;
+        object-fit: fill;
+    }
+
+    .card-image-holder {
+        position: relative;
+        width: 100%;
+        height: 20%;
+        object-fit: fill;
+    }
+    
+    .card-element-text-content {
+        display: inline-block;
+        margin-left: 10%;
+        margin-top: 15%;
+        margin-right: 10%;
+        padding-bottom: 10%;
+    }
+    
+    .card-element-text-genre {
+        font-family: 'Lato', sans-serif;
+        font-size: 14px;
+        font-weight: regular;
+    }
+    
+    .card-element-text-title {
+        font-family: 'Lato', sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+    }
+} */ 
