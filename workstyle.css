@@ -257,6 +257,7 @@ h1 {
 
 #my-email-address a{
     color: #1a1a1a;
+    transition: ease 0.2s;
 }
 
 #my-email-address a:hover{
@@ -275,6 +276,7 @@ h1 {
     color: black;
     font-size: 27px;
     margin: 17px;
+    transition: ease-in 0.2s;
 }
 
 .twitter-icon .fa:hover{
