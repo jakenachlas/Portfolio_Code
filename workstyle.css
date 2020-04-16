@@ -101,6 +101,12 @@ h1 {
     margin-bottom: 20px;
 }
 
+@media (max-width: 360px){
+    #hero-image {
+        display: none;
+    }
+}
+
 
 #hero-intro-about-text {
     font-size: 20px;
@@ -330,6 +336,12 @@ footer {
     
     .hero {
         margin-top: 100px;
+    }
+
+    #hero-image {
+        width: 150px;
+        height: auto;
+        margin-bottom: 20px;
     }
     
     .featured {
