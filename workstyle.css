@@ -11,6 +11,10 @@ body {
     background-color: rgba(255,255,255,0.6);
 }
 
+#name-brand {
+    font-weight: bold;
+}
+
 .navbar-custom .navbar-nav .nav-link {
     color: #1a1a1a;
     padding: 0 25px;
@@ -116,10 +120,10 @@ h1 {
     border: none;
     margin: 8px;
     margin-top: 20px;
-    font-size: 14px;
+    font-size: 17px;
     font-family: 'Lato', sans-serif;
     border-radius: 5px;
-    padding: 10px 32px;
+    padding: 16px 40px;
     box-shadow: 0px 0px 20px rgba(228, 55, 98, 0.5);
     transition: box-shadow 0.3s ease-in-out;
     position: relative;
@@ -253,16 +257,23 @@ h1 {
 #my-email-address {
     text-align: center;
     color: #1a1a1a;
-    text-decoration: underline;
+    
 }
 
 #my-email-address a{
     color: #1a1a1a;
+    text-decoration: none;
     transition: ease 0.2s;
 }
 
+#my-email-address a:link{
+    border-bottom: 3px solid #7b4397;
+    opacity: 70%;
+}
+
 #my-email-address a:hover{
-    color: #dc2430;
+    color: black;
+    border-bottom: 3px solid #dc2430;
 }
 
 .social-media-icons {
@@ -379,7 +390,7 @@ input:focus::-webkit-input-placeholder {
 /* footer */
 
 footer {
-    margin-top: 20px;
+    /* margin-top: 20px; */
     padding: 30px;
     font-size: 14px;
     text-align: center;
@@ -392,6 +403,9 @@ footer {
     color: #dc2430;
 }
 
+#div-icon {
+    font-weight: bold;
+}
 
 
 /* tablet */
@@ -460,12 +474,6 @@ footer {
         font-size: 20px;
         font-weight: bold;
     }
-
-    /* .form {
-        max-width: 80%;
-    } */
-
-    /* TABLET footer */
 
 }
 
@@ -545,11 +553,12 @@ footer {
     }
     /* PHONE footer */
     footer {
-        margin-top: 20px;
+        /* margin-top: 20px; */
         padding-bottom: 20px;
         font-size: 14px;
         text-align: center;
     }
+
 
     .footer-text {
         /* max-width: 80%; */
@@ -559,3 +568,7 @@ footer {
 
 
 }
+
+
+
+
