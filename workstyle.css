@@ -416,6 +416,12 @@ footer {
     body {
         overflow-x: hidden;
     }
+
+    #hero-image {
+        width: 150px;
+        height: auto;
+        margin-bottom: 20px;
+    }
     
     .featured {
         background: #EFEFEF 0% 0% no-repeat padding-box;
