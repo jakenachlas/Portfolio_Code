@@ -136,7 +136,7 @@ h1 {
     margin-top: 20px;
     font-size: 17px;
     font-family: 'Lato', sans-serif;
-    border-radius: 5px;
+    border-radius: 2em;
     padding: 16px 40px;
     box-shadow: 0px 0px 20px rgba(228, 55, 98, 0.5);
     transition: box-shadow 0.3s ease-in-out;
