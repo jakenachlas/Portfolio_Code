@@ -5,7 +5,14 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    
 }
+
+a.navbar-brand img{
+    height: 30px;
+    
+}
+
 
 .navbar-custom {
     background-color: rgba(255,255,255,0.6);
@@ -494,7 +501,7 @@ footer {
     /* PHONE footer */
     footer {
         /* margin-top: 20px; */
-        padding-bottom: 20px;
+        padding-bottom: 40px;
         font-size: 14px;
         text-align: center;
     }
