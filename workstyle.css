@@ -9,8 +9,9 @@ body {
 }
 
 a.navbar-brand img{
-    height: 30px;
-    
+    max-height: 30px; 
+    height: 100%;
+    width: auto;
 }
 
 
