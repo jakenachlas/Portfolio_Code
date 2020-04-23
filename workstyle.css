@@ -19,9 +19,6 @@ a.navbar-brand img{
     background-color: rgba(255,255,255,0.6);
 }
 
-#name-brand {
-    font-weight: bold;
-}
 
 .navbar-custom .navbar-nav .nav-link {
     color: #1a1a1a;
@@ -496,9 +493,6 @@ footer {
     }
 
 
-    .form {
-        max-width: 80%;
-    }
     /* PHONE footer */
     footer {
         /* margin-top: 20px; */
